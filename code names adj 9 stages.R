@@ -1,8 +1,4 @@
-#recursive equations
-library(ggplot2)
-library(mgcv)
-#The annual U.S death rate at age a in year y for a persons without Alzheimers is d*(a,y)
-#rates to depend on year
+
 rates<-read.csv("/Users/n_a_abdallah/Desktop/GSR/mortality rates all.csv")
 #females
 dr.f<-function(a,y){
